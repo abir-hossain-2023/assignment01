@@ -76,4 +76,56 @@ width: 594px;
 flex-direction: column;
 flex-shrink: 0;
 text-align: center;
+margin-bottom: 80px;
+}
+.figures{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  
+
+  text-align: center;
+margin: 0 auto;
+}
+
+.fig-with-caption{
+    flex: 1;
+ 
+  
+
+
+}
+.img1{
+   
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    width: 232px;
+    height: 269px;
+  
+}
+.img2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    width: 232px;
+    height: 269px;
+  
+}
+.img3{
+    border-radius: 300px 300px 0px 0px;
+background: rgba(71, 125, 17, 0.15);
+width: 232px;
+height: 269px;
+
+
+}
+.caption{
+    color: #272727;
+text-align: center;
+
+font-size: 24px;
+
+font-weight: 700;
+line-height: 35px;
+text-decoration-line: underline;
 }
