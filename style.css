@@ -199,4 +199,17 @@ justify-content: space-between;
 .hot-deal-text{
     padding-top: 120px;
 }
+.displayed-images{
+    
+display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.displayed-images img{
+    width: 342px;
+    height: 396px;
+  margin: 20px;
+}
+
 
