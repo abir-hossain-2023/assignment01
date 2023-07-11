@@ -34,16 +34,24 @@ line-height: 30px;
 padding: 32px;
 padding-left: 0px;
 }
+.button-container{
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 .common-btn{
     border-radius: 8px;
 background: #E55473;
 border: 0;
-display: inline-flex;
+display:flex;
 padding: 20px 43px;
-align-items: flex-start;
+align-items: center;
 gap: 10px;
 color: white;
 font-size: large;
+
+
 }
 .header-image{
     width: 635px;
@@ -64,6 +72,7 @@ font-size: large;
 text-align: center;
 font-size: 40px;
 font-weight: 800;
+padding-top: 80px;
 }
 .feature-section > p{
     color: rgba(39, 39, 39, 0.60);
@@ -75,8 +84,8 @@ display: flex;
 width: 594px;
 flex-direction: column;
 flex-shrink: 0;
-text-align: center;
 margin-bottom: 80px;
+
 }
 .figures{
     display: flex;
@@ -211,5 +220,24 @@ display: flex;
     height: 396px;
   margin: 20px;
 }
+.input{
+    width: 700px;
+height: 64px;
+border-radius: 8px;
+background: #FFF;
 
+}
 
+.input-section{
+    background-image: url('assets/Rectangle\ 9.png');
+    width: 1440px;
+height: 349px;
+margin:0px auto;
+}
+.input-boxandbutton{
+    padding-left: 25%;
+}
+#button {
+    padding-left: 25% ;
+    
+}
